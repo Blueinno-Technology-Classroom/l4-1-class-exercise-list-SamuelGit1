@@ -3,41 +3,50 @@
 Q1: 
 '''
 
-# TODO: Write your code here
+sentence = ["It", "was", "a", "stormy", "night"]
 
 ##################################################
 '''
 Q2:
 '''
 
-# TODO: Write your code here
+sentence.insert(3, "dark")
+sentence.insert(4, "and")
 
 ##################################################
 '''
 Q3:
 '''
 
-# TODO: Write your code here
+sentence[1] = "IS"
 
 ##################################################
 '''
 Q4:
 '''
 
-# TODO: Write your code here
+for word in sentence:
+    if "a" in word:
+        sentence.remove(word)
 
 ##################################################
 '''
 Q5:
 '''
 
-# TODO: Write your code here
+multiples = []
+for i in range(10):
+    multiples.append(i * 2)
 
 ##################################################
 '''
 Q6:
 '''
 
-# TODO: Write your code here
+def fill(list, number):
+    new = []
+    for i in range(len(list)):
+        new.append(number)
+    return new
 
 ##################################################
